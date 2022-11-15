@@ -1,8 +1,8 @@
 # TenderHack
-## Цель и задачи
-Разработка прототипа механизма поиска товаров на портале поставщиков
+## Purpose and task
+Development of a prototype of the mechanism for searching for goods on the selection portal
 
-В рамках хакатона участникам предстоит реализовать задачи: Проанализировать типовой функционал системы поиска товаров (поиск по ходу набора названия – подсказки, контекстные синонимы, транслитерация, опечатки, ранжирование подсказок и выдачи, поиск с учетом свойств, учет перестановки слов, история поиска, аналогичные товары и т.д.); Реализовать систему; Провести тестирование системы, оптимизировать ее работу в рамках улучшения метрик; Продемонстрировать работоспособность проекта; Определить возможности по масштабированию решения и следующим его доработкам.
+As part of the hackathon, the task to be implemented is: Analyze a typical functional product search system (search in the course of a set of names - hints, contextual synonyms, transliteration, oki, ranking of hints and issuance, search taking into account properties, accounting for word permutation, search history, search for goods and goods ). etc.); Implement the system; Test the system, compiling its work within the framework of the implementation of metrics; About the round performance of the project; Identify opportunities for scaling the solution and propose improvements.
 
 ![2022-10-31 23-27-55](https://user-images.githubusercontent.com/92402616/199105142-7a5a1e7a-f3b4-4166-8f26-07c21ee439c9.gif)
 
@@ -15,16 +15,15 @@
 
 
 
-## Техническое описание проекта
+## Technical description of the project
 
-- server.py - бэк на Flask, соединяет ML с фронтом
-- search.py - постороение info search
-- nlp.py - nlp обработка датасетов и запросов
-- main.py - ml часть с языковой моделью Bert
-- autocorrect.py - автокоррекция запросов
-- autocomplete.py - автодополнение запросов в runtime
-- template и static - фронт часть
-- bert - обучение языковой модели
-
+- server.py - Flask backend, connects ML to the front
+- search.py - building information search
+- nlp.py - nlp processing of datasets and outgoing files
+- main.py - ml part with Bert language model
+- autocorrect.py - autocorrect source files
+- autocomplete.py - autocomplete files at runtime
+- template and statics - front part
+- bert - language model training
 
 
